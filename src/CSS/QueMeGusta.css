@@ -1,0 +1,54 @@
+section{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    margin: 50px 200px 0px;
+}
+
+.hobbies{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.hobbie-main{
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.MuiSvgIcon-root{
+    width: 1em;
+    height: 1em;
+    fill: currentColor;
+}
+
+.MuiSvgIcon-fontSizeLarge {
+    font-size: 2.1875rem;
+}
+
+.hobbie-icon{
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    height: 120px;
+    transition-duration: 0.8s;
+}
+.hobbie-icon:hover{
+    display: inline-block;
+    vertical-align: middle;
+    transition-duration: 1s;
+    transition-property: transform;
+    transform: scale(0.9);
+}
+
+.MuiSvgIcon-colorPrimary {
+    color: #3f51b5;
+}
+
