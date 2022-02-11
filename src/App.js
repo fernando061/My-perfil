@@ -7,7 +7,17 @@ import QueMeGusta from "./Components/Home/QueMeGusta";
 import Portafolio from "./Components/Home/Portafolio";
 import Herramientas from "./Components/Home/Herramientas";
 
+
+   
+import {useState, useEffect, useContext} from 'react'
+import { ObtenerUbicacion } from "./Utils/Geolocalizacion";
+
 function App() {
+
+  useEffect(()=>{
+    // ObtenerUbicacion();
+},[])
+
   return (
     <div className="App">
       <nav id="main" className="sc-fFubgz bjNVbG">
