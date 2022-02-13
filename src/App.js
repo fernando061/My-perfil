@@ -2,6 +2,7 @@ import "./App.css";
 import perfil from "./Assets/fernando-rojo.jpg";
 import decoracion from "./Assets/docoracion.png";
 import decoracionBottom from "./Assets/decoracion-bottom.png";
+import footer from "./Assets/footer.png";
 import aboutMe from "./Assets/Aboutme.36271eab.png";
 import QueMeGusta from "./Components/Home/QueMeGusta";
 import Portafolio from "./Components/Home/Portafolio";
@@ -11,6 +12,8 @@ import Herramientas from "./Components/Home/Herramientas";
    
 import {useState, useEffect, useContext} from 'react'
 import { ObtenerUbicacion } from "./Utils/Geolocalizacion";
+import Proyectos from "./Components/Home/Proyectos";
+import Footer from "./Components/Home/Footer";
 
 function App() {
 
@@ -77,6 +80,12 @@ function App() {
 <QueMeGusta></QueMeGusta>
 <Portafolio></Portafolio>
 <Herramientas/>
+<Proyectos/>
+<div className="border-footer">
+  <img src={footer}/>
+</div>
+<Footer/>
+
     </div>
   );
 }

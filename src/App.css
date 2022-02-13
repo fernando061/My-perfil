@@ -221,3 +221,11 @@ img {
   vertical-align: middle;
   border-style: none;
 }
+
+.border-footer{
+  display: grid;
+  grid-template-columns: minmax(375px, 1fr);
+}
+.border-footer img{
+  max-width: 100%;
+}

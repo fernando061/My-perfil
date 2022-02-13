@@ -1,0 +1,29 @@
+.proyecto-main{
+    display: grid;
+    margin: 135px 200px 300px;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    text-align: center;
+    gap: 50px;
+}
+
+.main-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    text-align: center;
+    gap: 30px;
+}
+.main-container div{
+    min-width: 20px;
+    align-self: end;
+    transition: all 1.5s ease-in-out 0s;
+}
+
+.main-container div:hover{
+    background-color: rgb(255, 245, 157);
+    transform: scale(1);
+    transition: all 1s ease-in-out 0s;
+}
