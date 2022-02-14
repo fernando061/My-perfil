@@ -7,17 +7,17 @@ const Herramientas = () => {
       <div className="herramientas-container">
         <h3 style={{ fontSize: "1.5em", marginBottom: "1em" }}> > Tools</h3>
         <div className="container-icons">
-          <div className="">
+          <div className="event-icon">
             <i class="devicon-github-original colored herramienta-icon"></i>
 
             <h6>GitHub</h6>
           </div>
-          <div>
+          <div className="event-icon">
             <i class="devicon-git-plain colored herramienta-icon"></i>
 
             <h6>Git</h6>
           </div>
-          <div>
+          <div className="event-icon">
             <img
               className="herramienta-icon"
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg"
@@ -25,22 +25,22 @@ const Herramientas = () => {
 
             <h6>Linux</h6>
           </div>
-          <div>
+          <div className="event-icon">
             <i class="devicon-visualstudio-plain colored herramienta-icon"></i>
 
             <h6>Visual Studio</h6>
           </div>
-          <div>
+          <div className="event-icon">
             <i class="devicon-firebase-plain colored herramienta-icon"></i>
 
             <h6>Firebase</h6>
           </div>
-          <div>
+          <div className="event-icon">
             <i className="devicon-npm-original-wordmark colored herramienta-icon"></i>
 
             <h6></h6>
           </div>
-          <div>
+          <div className="event-icon">
             <img
               className="herramienta-icon"
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/yarn/yarn-original.svg"

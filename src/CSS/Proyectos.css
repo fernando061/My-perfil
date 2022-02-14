@@ -27,3 +27,19 @@
     transform: scale(1);
     transition: all 1s ease-in-out 0s;
 }
+
+@media screen and (max-width: 1320px){
+    .main-container{
+     
+        grid-template-columns: repeat(2, 1fr);
+       
+    }
+}
+
+@media screen and (max-width: 1060px){
+    .main-container{
+      
+        grid-template-columns: repeat(1, 1fr);
+      
+    }
+}

@@ -24,16 +24,17 @@ const Footer = () => {
       </ul>
       <ul class="links-container">
       <h1>Social Media</h1>
-        <a href="" className="link">
-        <i class="devicon-linkedin-plain"> Linkedin</i>
-       
+        <a href="https://www.linkedin.com/in/fernando-rojo-ortiz-808b01216/" target="_blank" rel="noopener noreferrer" className="link link-2">
+        <i class="devicon-linkedin-plain"> </i>
+       <h6>Linkedin</h6>
         </a>
-        <a href="" className="link">
-        <i class="devicon-github-original">GitHub</i>
+        <a href="https://github.com/fernando061" target="_blank" rel="noopener noreferrer" className="link link-2">
+        <i class="devicon-github-original"></i>
+        <h6>GitHub</h6>
         </a>
-        <a href="" className="link">
-        <i class="devicon-twitter-original">Twitterx</i>
-
+        <a href="https://twitter.com/fernando_soul03" target="_blank" rel="noopener noreferrer" className="link link-2">
+        <i class="devicon-twitter-original"></i>
+<h6>Twitter</h6>
         </a>
       </ul>
       <img src={team}/>

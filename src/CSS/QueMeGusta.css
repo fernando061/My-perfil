@@ -52,3 +52,24 @@ section{
     color: #3f51b5;
 }
 
+@media screen and (max-width: 928px){
+    .hobbies h1{
+        text-align: center;
+    }
+  .hobbie-main{
+      flex-direction: column;
+  }
+  section{
+    grid-template-rows: none;
+  }
+  
+  }
+  @media screen and (max-width: 1060px){
+ 
+  section{
+    grid-template-rows: none;
+  }
+  
+  }
+
+  

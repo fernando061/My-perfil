@@ -36,9 +36,36 @@ footer img:hover{
     transform: scale(0.9);
     transition-duration: 500ms;
 }
-footer ul a i{
-    font-family: 'Press Start 2P' !important;
+footer ul .link-2{
+    display: flex;
+}
+footer ul .link-2 i{
+    font-size: 1.8em;
 }
 
+footer ul .link-2 h6{
+display: flex;
+margin-left: 17px;
+font-size: 0.8em;
+}
+footer ul a:hover{
+color: white;
+}
 
-font-family: 'Press Start 2P';
+@media screen and (max-width: 800px){
+
+    footer{
+        display: grid;
+        font-size: 15px;
+        grid-template-columns: minmax(375px, 1fr);
+        -webkit-box-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        align-items: center;
+        text-align: center;
+        min-width: fit-content;
+    }
+    .links-container{
+        align-items: center;
+    }
+}

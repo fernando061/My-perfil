@@ -7,11 +7,10 @@ import aboutMe from "./Assets/Aboutme.36271eab.png";
 import QueMeGusta from "./Components/Home/QueMeGusta";
 import Portafolio from "./Components/Home/Portafolio";
 import Herramientas from "./Components/Home/Herramientas";
-
+import cocoa from "./MP3/Cocoa Butter (feat. Maugre).mp3";
 
    
 import {useState, useEffect, useContext} from 'react'
-import { ObtenerUbicacion } from "./Utils/Geolocalizacion";
 import Proyectos from "./Components/Home/Proyectos";
 import Footer from "./Components/Home/Footer";
 
@@ -23,6 +22,7 @@ function App() {
 
   return (
     <div className="App">
+      
       <nav id="main" className="sc-fFubgz bjNVbG">
         <h1 class="sc-bkzZxe cSnsVU nes-text">FernandoDev</h1>
         <div class="nes-badge is-splited">
@@ -39,8 +39,8 @@ function App() {
         </li>
       </nav>
 
-      <div className="sobre-mi-principal">
-        <img src={perfil}></img>
+      <div  className="sobre-mi-principal">
+        <img className="perfil-img" src={perfil}></img>
         <div className="sobre-mi">
           <span>Hello world!</span>
           <h2>I'm Fernando Rojo</h2>
@@ -67,24 +67,26 @@ function App() {
         </div>
       </div>
 
-      <div className="sobre-mi-decoracion ">
+      <div id="aboutme" className="sobre-mi-decoracion ">
         <img src={decoracion} className="mx-w-100"/>
       </div>
-      <div className="sobre-mi-principal-detalle">
+      <div  className="sobre-mi-principal-detalle">
         <div className="sobre-mi-left"></div>
 <img className="sobre-mi-right" src={aboutMe}/>
       </div>
       <div className="sobre-mi-decoracion">
         <img className="mx-w-100" src={decoracionBottom}/>
       </div>
-<QueMeGusta></QueMeGusta>
-<Portafolio></Portafolio>
+<QueMeGusta/>
+
 <Herramientas/>
+
 <Proyectos/>
+
 <div className="border-footer">
   <img src={footer}/>
 </div>
-<Footer/>
+<Footer/> 
 
     </div>
   );

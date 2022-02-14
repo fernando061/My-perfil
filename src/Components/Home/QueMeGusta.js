@@ -2,7 +2,7 @@ import React from "react";
 import "../../CSS/QueMeGusta.css";
 const QueMeGusta = () => {
   return (
-    <section className="hobbies">
+    <section id ="hobbies" className="hobbies">
       <h1 style={{height:'112px'}}>What I Like</h1>
 
       <div className="hobbie-main">
