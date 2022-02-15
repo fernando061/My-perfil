@@ -43,3 +43,11 @@
       
     }
 }
+
+@media screen and (max-width: 640px){
+    .proyecto-main{
+      
+        margin: 50px 0;
+      
+    }
+}

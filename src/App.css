@@ -253,3 +253,22 @@ img {
 }
 
 }
+@media screen and (max-width: 408px){
+
+  .sobre-mi h2{
+    font-size: 1.3em;
+  }
+ 
+ }
+
+@media screen and (max-width: 376px){
+
+ nav{
+  font-size: 0.5em;
+ }
+ .kGntgQ a{
+   font-size: 1.5em;
+ }
+
+
+}
